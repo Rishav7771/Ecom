@@ -1,0 +1,1 @@
+insert  into user_details values(1,'mrrishav123@gmail.com','Rishav','Singh','7903762252','Rishav@123')
