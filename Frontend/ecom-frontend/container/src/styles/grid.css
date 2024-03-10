@@ -1,0 +1,42 @@
+.img-grid{
+    transition: transform .3s ease;
+}
+.img-grid:hover{
+    transform: scale(1.03);
+}
+
+.my-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    max-width: 1600px;
+}
+
+.animate-left-right{
+    animation: left-right 2s 1 ease-in-out;
+}
+
+.animate-right-left{
+    animation: right-left 2s 1 ease-in-out;   
+}
+
+@keyframes left-right {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes right-left {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
